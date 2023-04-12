@@ -1,0 +1,29 @@
+.matching-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: minmax(200px, auto);
+  gap: 10px;
+  padding: 0 4px;
+  margin: 36px 0;
+}
+
+.matching-list li {
+  border: 1px solid gainsboro;
+}
+
+.matching-list h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+  font-size: 20px;
+}
+
+.matching-choiceBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 32px;
+  height: 20%;
+  border-top: 1px solid gainsboro;
+}
