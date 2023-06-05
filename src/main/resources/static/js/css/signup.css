@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-color: #d2d2d2;
+
+}
+
+.login-form {
+  padding: 0px;
+  width: 40%;
+  display: block;
+  margin: 50px auto auto auto;
+  color: #121212;;
+  }
+  .mark{ 
+      opacity: 0.5; 
+      text-align: center;
+      margin-top: 50px;
+    }
+h1{
+  text-align: center;
+  color: whitesmoke;
+  font-size: 50px;
+  }
+    /*회색 #d2d2d2;
+  흰색  whitesmoke;*/
