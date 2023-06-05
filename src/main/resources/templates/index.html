@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link th:href="@{/js/CSS/reset.css}" rel="stylesheet">
+    <link th:href="@{/js/CSS/global.css}" rel="stylesheet">
+    <link th:href="@{/js/CSS/home.css}" rel="stylesheet">
+    <title>인더핏</title>
+  </head>
+  <body>
+    <header class="global-header-wrapper"></header>
+
+    <main class="global-main-wrapper">
+      <div class="global-main-container">
+        <div class="home-introduce">
+          <h1 class="home-introduce-title">인더핏</h1>
+          <p class="home-introduce-description">
+            저희는 모든 초심자와 경력자, 개인, 단체를 환영합니다. <br />운동은
+            과거부터 자신의 건강을 위해 혹은 자기 외모를 발전 시키기 위해
+            유행처럼 번져 나갔습니다.<br />
+            저희는 개인의 운동도 지지하지만, 모두가 함께하는 운동, 즐겁고 편한
+            운동, 전문적인 운동을 선호합니다.<br />
+            1vs1, 1vsN 서비스를 통해 다양한 사람들과 함께 배워나가도록
+            해드리겠습니다. <br />망설이지 말고 시작하세요!
+          </p>
+        </div>
+
+        <div class="home-review">
+          <div class="home-review-titleBox">
+            <h3>장소 후기</h3>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+              <path
+                d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"
+              />
+            </svg>
+          </div>
+
+          <ul class="home-review-list">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+      </div>
+    </main>
+
+    <footer class="global-footer-wrapper"></footer>
+    <script type="text/javascript" th:src="@{/js/js/global.js}"></script>
+  </body>
+</html>

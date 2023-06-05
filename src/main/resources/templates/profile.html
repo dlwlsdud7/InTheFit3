@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link th:href="@{/js/CSS/reset.css}" rel="stylesheet">
+    <link th:href="@{/js/CSS/global.css}" rel="stylesheet">
+    <link th:href="@{/js/CSS/profile.css}" rel="stylesheet">
+    <title>인더핏 - 프로필</title>
+  </head>
+  <body>
+    <header class="global-header-wrapper"></header>
+
+    <main class="global-main-wrapper">
+      <div class="global-main-container">
+        <div class="profile-imageBox">
+          <div class="profile-image">
+            <img
+              src="https://www.thechooeok.com/common/img/default_profile.png"
+              alt="유저이미지"
+            />
+          </div>
+        </div>
+
+        <h2 class="profile-username">이름</h2>
+
+        <div class="profile-review">
+          <div class="profile-review-titleBox">
+            <h3>후기</h3>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+              <path
+                d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"
+              />
+            </svg>
+          </div>
+
+          <ul class="profile-review-list">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+      </div>
+    </main>
+
+    <footer class="global-footer-wrapper"></footer>
+
+    <script type="text/javascript" th:src="@{/js/js/global.js}"></script>
+  </body>
+</html>
